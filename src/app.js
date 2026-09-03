@@ -1,6 +1,8 @@
 import express from 'express'
 
 import cookieParser from 'cookie-parser'
+import swaggerUi from 'swagger-ui-express'
+import openapiSpecification from './docs/openapi.js'
 
 
 
@@ -9,6 +11,8 @@ const app = express()
 
 app.use(express.json())
 app.use(cookieParser())
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapiSpecification))
+app.get('/api-docs.json', (req, res) => res.json(openapiSpecification))
 
 /**
  * - Routes Required

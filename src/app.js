@@ -20,8 +20,8 @@ app.get('/api-docs.json', (req, res) => res.json(openapiSpecification))
 
 
 import authRoutes from './routes/auth.routes.js'
-import accountRoutes from './routes/Acoount.routs.js'      
-import transactionRoutes from './routes/transaction.routs.js'
+import accountRoutes from './routes/account.routes.js'
+import transactionRoutes from './routes/transaction.routes.js'
 
 /**
  * - Use Routes

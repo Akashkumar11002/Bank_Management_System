@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken'
 import userModel from '../models/user.model.js'
-import tokenblacklistModel from '../models/blackList.model.js'
+import tokenblacklistModel from '../models/blacklist.model.js'
 import { sendRegistrationEmail } from './email.service.js'
 
 function createToken(userId) {

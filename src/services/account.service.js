@@ -1,4 +1,4 @@
-import accountModel from '../models/Account.model.js'
+import accountModel from '../models/account.model.js'
 
 async function createAccount(userId) {
     return accountModel.create({ user: userId })

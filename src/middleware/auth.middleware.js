@@ -1,6 +1,6 @@
 import userModel from '../models/user.model.js'
 import jwt from 'jsonwebtoken'
-import tokenblacklistModel from '../models/blackList.model.js'
+import tokenblacklistModel from '../models/blacklist.model.js'
 
 
 async function authMiddleware(req, res, next) {

@@ -4,7 +4,7 @@ import {
     createAccountController,
     getAllAccountsController,
     getAccountBalanceController
-} from '../controllers/Account.controller.js'
+} from '../controllers/account.controller.js'
 
 const router = express.Router()
 

@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 import transactionModel from '../models/transaction.model.js'
 import ledgerModel from '../models/ledger.model.js'
-import accountModel from '../models/Account.model.js'
+import accountModel from '../models/account.model.js'
 import userModel from '../models/user.model.js'
 import { sendTransactionEmail } from './email.service.js'
 

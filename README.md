@@ -37,7 +37,7 @@ cd Backend_Project
 npm install
 ```
 
-Create `src/.env` using the following variables. Keep this file private and never commit real credentials:
+Create `src/.env` from [`src/.env.example`](src/.env.example). Keep this file private and never commit real credentials:
 
 ```env
 MONGO_URI=mongodb://localhost:27017/bank_transaction_system
@@ -175,4 +175,8 @@ src/
 
 ## License
 
-This project is currently private and does not declare a project license.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Contributing
+
+Issues and pull requests are welcome. Please keep changes focused, do not commit secrets, and run the available validation commands before submitting a pull request.
